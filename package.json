@@ -1,0 +1,18 @@
+{
+  "name": "doc-generator",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "docxtemplater": "^3.30.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "pizzip": "^3.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  },
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  }
+}
